@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello, this is my Node.js server!');
+    res.send('Testing Server for SSH Tunnel');
 });
 
 const PORT = process.env.PORT || 3000;
